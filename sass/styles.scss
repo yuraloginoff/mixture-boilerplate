@@ -1,12 +1,12 @@
 /**
  * Description: Sass starting kit with a SMACSS approach.
- * Version: 0.2.0
- * Last update: 2015/05/14
+ * Version: 0.2.1
+ * Last update: 2015/07/02
  * Author: Loginov Yura <yuraloginoff@gmail.com>
  *
  * Framework versions:
  * font-awesome-4.3.0
- * bootstrap-sass-3.3.4
+ * bootstrap-sass-3.3.5
  */
 
 /* Compass */
@@ -24,7 +24,6 @@
 @import "utilities/functions";
 
 /* Base */
-@import "base/normalize";
 @import "base/base";
 @import "base/ie";
 
@@ -44,5 +43,5 @@
 @import "modules/tables";
 @import "modules/misc";
 
-/* Theme */
-@import "theme/theme";
+/* Plugins */
+// @import "plugins/...";
